@@ -15,6 +15,8 @@ Diplomová práce z ČVUT. Dobře vysvětlený optical flow + ground facing came
 - [PWM3901](https://www.aliexpress.com/item/1005002091547875.html?pdp_npi=2%40dis%21USD%21US%20%2415.16%21US%20%2412.13%21%21%21%21%21%402103222116774496407811127e047c%2112000018714134976%21btf&_t=pvid:bcf2b3b7-14b4-45c6-a6dc-e6720313ed10&afTraceInfo=1005002091547875__pc__pcBridgePPC__xxxxxx__1677449641&spm=a2g0o.ppclist.product.mainProduct) 
 >  nenašel jsem nikde v ČR :/
 
+- [Pimoroni PAA5100JE](https://rpishop.cz/senzory/3859-pimoroni-paa5100je-opticky-sledovaci-senzor-spi-breakout-modul-0769894018262.html)
+> mělo by to být podobné PMW3901...upravili pro to knihovnu PMW3091 pro python
 ### Kamery
 - [Raspberry Pi kamera V2](https://rpishop.cz/mipi-kamerove-moduly/329-raspberry-pi-kamera-modul-v2.html?gclid=Cj0KCQiAo-yfBhD_ARIsANr56g5VIHvnlIzASSeSK-qNFbvD6W1O3ZsQqv9FN3JUUhNKdE-j2TJ5GYIaApptEALw_wcB)
 >nejvhodnější, je pro ni knihovní funkce a je nejčastěji používána....tz. nemusíme znova vymýšlet kolo a můžem využít něčí kód ze začátku, ať se můžeme o čeho odrazit
