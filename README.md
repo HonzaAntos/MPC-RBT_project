@@ -29,3 +29,4 @@ Diplomová práce z ČVUT. Dobře vysvětlený optical flow + ground facing came
 
 ## source
 - [1](https://www.youtube.com/watch?v=N451VeA8XRA)
+- [2](https://github.com/niconielsen32)
