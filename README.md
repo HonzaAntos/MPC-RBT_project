@@ -21,3 +21,7 @@ Diplomová práce z ČVUT. Dobře vysvětlený optical flow + ground facing came
 - [Raspberry Pi kamera V2](https://rpishop.cz/mipi-kamerove-moduly/329-raspberry-pi-kamera-modul-v2.html?gclid=Cj0KCQiAo-yfBhD_ARIsANr56g5VIHvnlIzASSeSK-qNFbvD6W1O3ZsQqv9FN3JUUhNKdE-j2TJ5GYIaApptEALw_wcB)
 >nejvhodnější, je pro ni knihovní funkce a je nejčastěji používána....tz. nemusíme znova vymýšlet kolo a můžem využít něčí kód ze začátku, ať se můžeme o čeho odrazit
 - > je i [verze](https://rpishop.cz/mipi-kamerove-moduly/331-raspberry-pi-noir-kamera-modul-v2.html) bez IR filtru (popřemýšlet, kterou vzít)
+
+
+## 3D model testovacího vozítka (roveru)
+- [Pod tímto odkazem uvidíte nejaktuálnější verzi 3D modelu vozítka](https://a360.co/3IGsfze)
