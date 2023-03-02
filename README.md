@@ -26,6 +26,12 @@ Diplomová práce z ČVUT. Dobře vysvětlený optical flow + ground facing came
 ## 3D model testovacího vozítka (roveru)
 - [Pod tímto odkazem uvidíte nejaktuálnější verzi 3D modelu vozítka](https://a360.co/3IGsfze)
 
+## video prototypu roveru
+> nemohu nahrát video nad 10MB, proto taková kvalita
+
+https://user-images.githubusercontent.com/112206462/222300169-0a077872-acd8-4c5e-b9a4-cb1fede2d3bf.mp4
+
+
 
 ## source
 - [1](https://www.youtube.com/watch?v=N451VeA8XRA)
