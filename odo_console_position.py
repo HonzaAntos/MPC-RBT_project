@@ -25,6 +25,7 @@ while True:
         avg_flow_x = np.mean(flow[:, :, 0])
         avg_flow_y = np.mean(flow[:, :, 1])
 
+
         # Update the position estimate
         pos[0] += avg_flow_x
         pos[1] += avg_flow_y
