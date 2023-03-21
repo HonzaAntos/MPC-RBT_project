@@ -45,6 +45,7 @@ while True:
         # Draw the current position on the map
         cv2.circle(map_img, tuple(pos), 5, (255, 0, 0), -1)
 
+
         # Display the map
         cv2.imshow('map', map_img)
 
