@@ -21,7 +21,6 @@ lk_params = dict(winSize=(15, 15), maxLevel=2, criteria=(cv2.TERM_CRITERIA_EPS |
 prev_gray = None
 prev_corners = None
 
-
 # Loop over the frames
 while True:
     # Capture a frame
