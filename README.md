@@ -2,6 +2,27 @@
 ## Zadání 
 - Proveďte rešerši open-source metod pro vizuální odometrii z kamery. Na základě konzultace s vedoucím zvolte jeden framework a zprovozněte jej pro RPi v2 kameru. Proveďte rešerši dostupných modulů pro vizuální odometrii. Zprovozněte modul na arduino-kompatibilním mikročipu. Srovnejte oba přístupy.
 
+## Testování 
+- První verze odometri na RpiCamV2
+> Použita knihovna "cv2". Výpočet diference mezi po sobě jdoucími framy pomocí funkce "calcOpticalFlowFarneback"
+
+https://user-images.githubusercontent.com/112206462/232104632-f8db201a-aa83-46ea-a802-f60fb93a3b56.mp4
+
+- Druhá verze odometrie na RPICamV2.
+> Přidán grid a nasatvitelné rozlišení mapy
+
+https://user-images.githubusercontent.com/112206462/232104016-29412a96-3c33-44d6-8d5d-7a984b47941b.mp4
+
+- První verze odometrie na Pimoroni PAA5501 
+> Prozatím sensor připojen na Rpi. Použita knihovna "PMW3901"
+
+https://user-images.githubusercontent.com/112206462/232104046-932b5f9c-bd2c-4c00-8f89-1c8063521e4f.mp4
+
+Raspberry Pi připojené na 7" touch panel osazený RpiCamV2 a Pimoroni(Optical Flow) sensorem
+
+![341461659_1184261095525722_6360606724627900383_n](https://user-images.githubusercontent.com/112206462/232104096-8f363f1a-45c0-451d-a02b-0a2179048f92.jpg)
+![340668499_778234440488964_4237572510477158698_n](https://user-images.githubusercontent.com/112206462/232104120-b92094dd-b910-4e12-b601-42423e852e70.jpg)
+
 
 ## rešerše
 Diplomová práce z ČVUT. Dobře vysvětlený optical flow + ground facing camera.
