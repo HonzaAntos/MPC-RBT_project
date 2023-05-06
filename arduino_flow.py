@@ -2,7 +2,7 @@ import serial
 import numpy as np
 import cv2
 import math
-ser = serial.Serial('/dev/ttyUSB1', 9600)  # Replace with the name of your serial port
+ser = serial.Serial('/dev/ttyUSB0', 9600)  # Replace with the name of your serial port
 meter_in_px = 10000
 
 # Create a blank map with a white background

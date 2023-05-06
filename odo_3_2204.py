@@ -2,26 +2,12 @@
 
 import numpy as np
 import cv2
-import RPi.GPIO as GPIO
 
 # initialize camera
 cap = cv2.VideoCapture(0) # assuming camera is connected to the Pi's USB port
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 160)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 120)
 
-# Set up GPIO pins
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-GPIO.setup(18, GPIO.OUT)
-GPIO.setup(15, GPIO.OUT)
-GPIO.setup(14, GPIO.OUT)
-GPIO.setup(23, GPIO.OUT)
-
-# Turn on the LED strips
-GPIO.output(18, GPIO.HIGH)
-GPIO.output(15, GPIO.HIGH)
-GPIO.output(14, GPIO.HIGH)
-GPIO.output(23, GPIO.HIGH)
 
 # initialize previous frame and previous keypoints
 prev_frame = None
@@ -94,13 +80,6 @@ while True:
 # release resources
 cap.release()
 cv2.destroyAllWindows()
-# Turn off the LED strips
-GPIO.output(18, GPIO.LOW)
-GPIO.output(15, GPIO.LOW)
-GPIO.output(14, GPIO.LOW)
-GPIO.output(23, GPIO.LOW)
-# Clean up the GPIO pins
-GPIO.cleanup()
 
 #171516680px =~ 1m
 #164502000px =~1m -> correct value for 320x240 resolution
